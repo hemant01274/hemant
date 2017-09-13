@@ -15,10 +15,10 @@ int main()
     int size, element;
     int count = 0;
  
-    printf("Enter the number of stack elements:");
+    printf("Enter the number of elements:");
     scanf("%d",&size);
  
-    printf("--- Push elements into the linked stack ---\n");
+    printf("Push elements into the stack\n");
     while(count < size)
     {
  
@@ -29,7 +29,7 @@ int main()
         count++;
     }
  
-    printf("--- Pop elements from the linked stack --- \n");
+    printf("Pop elements from the stack\n");
     while(head!= NULL)
     {
         head = pop(head,&element);
